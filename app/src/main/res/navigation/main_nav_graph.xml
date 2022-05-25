@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_registerBusFragment"
+            app:destination="@id/registerBusFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_registerChildFragment"
+            app:destination="@id/registerChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerBusFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.RegisterBusFragment"
+        android:label="fragment_register_bus"
+        tools:layout="@layout/fragment_register_bus" />
+    <fragment
+        android:id="@+id/registerChildFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.RegisterChildFragment"
+        android:label="fragment_register_child"
+        tools:layout="@layout/fragment_register_child" />
+</navigation>

@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "478718006235",
+    "firebase_url": "https://kiddie-tracking-36e7b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kiddie-tracking-36e7b",
+    "storage_bucket": "kiddie-tracking-36e7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478718006235:android:5cc97edc239cd4c3d84dfe",
+        "android_client_info": {
+          "package_name": "com.example.kiddietracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478718006235-qmi0364vjikh34helf70dn07af48681o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kiddietracking",
+            "certificate_hash": "7714b9268a81d0cf0fb178b0af8dbb630f8fc70a"
+          }
+        },
+        {
+          "client_id": "478718006235-sn6cfu8jjlm5tifoelds091223sh8113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDtsygTvxGCqJLYNc9GvGO9yxFC9oqVCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478718006235-sn6cfu8jjlm5tifoelds091223sh8113.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478718006235:android:20d349378eb9acadd84dfe",
+        "android_client_info": {
+          "package_name": "com.example.kiddietrackingadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478718006235-adihrvn52n2gvnserkm2i3gbe0h4iv5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kiddietrackingadmin",
+            "certificate_hash": "7714b9268a81d0cf0fb178b0af8dbb630f8fc70a"
+          }
+        },
+        {
+          "client_id": "478718006235-sn6cfu8jjlm5tifoelds091223sh8113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDtsygTvxGCqJLYNc9GvGO9yxFC9oqVCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478718006235-sn6cfu8jjlm5tifoelds091223sh8113.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478718006235:android:eef6f76da28e00c8d84dfe",
+        "android_client_info": {
+          "package_name": "com.example.kiddietrackingdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478718006235-icuq7r5lk6u86d23naknhj2ac8ldk10j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kiddietrackingdriver",
+            "certificate_hash": "7714b9268a81d0cf0fb178b0af8dbb630f8fc70a"
+          }
+        },
+        {
+          "client_id": "478718006235-sn6cfu8jjlm5tifoelds091223sh8113.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDtsygTvxGCqJLYNc9GvGO9yxFC9oqVCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478718006235-sn6cfu8jjlm5tifoelds091223sh8113.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
