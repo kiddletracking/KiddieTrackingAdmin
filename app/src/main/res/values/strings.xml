@@ -17,4 +17,8 @@
     <string name="child_class_and_section">Child Class and Section</string>
     <string name="parent_name">Parent Name</string>
     <string name="parents_contact_number">Parents Contact Number</string>
+    <string name="save">Save</string>
+    <string name="driver_contact_number">Driver Contact Number</string>
+    <string name="edit_driver_details">Edit Driver Details</string>
+    <string name="driver_list">Driver List</string>
 </resources>

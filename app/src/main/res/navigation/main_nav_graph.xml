@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_homeFragment_to_registerChildFragment"
             app:destination="@id/registerChildFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_driverListFragment"
+            app:destination="@id/driverListFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerBusFragment"
@@ -54,4 +57,22 @@
         android:name="com.example.kiddietrackingadmin.ui.fragments.RegisterChildFragment"
         android:label="fragment_register_child"
         tools:layout="@layout/fragment_register_child" />
+    <fragment
+        android:id="@+id/driverListFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.DriverListFragment"
+        android:label="fragment_driver_list"
+        tools:layout="@layout/fragment_driver_list" >
+        <action
+            android:id="@+id/action_driverListFragment_to_driverDetailsFragment"
+            app:destination="@id/driverDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverDetailsFragment"
+        android:name="com.example.kiddietrackingadmin.ui.fragments.DriverDetailsFragment"
+        android:label="fragment_driver_details"
+        tools:layout="@layout/fragment_driver_details" >
+        <argument
+            android:name="driverId"
+            app:argType="string" />
+    </fragment>
 </navigation>

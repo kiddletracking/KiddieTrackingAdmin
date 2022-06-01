@@ -29,6 +29,10 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_homeFragment_to_registerBusFragment)
         }
 
+        binding.editDetails.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_driverListFragment)
+        }
+
         return binding.root
     }
 }
